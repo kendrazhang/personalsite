@@ -27,7 +27,7 @@ p {
     font-size: 1.5em;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     line-height: 1.4em;
-    color: #9333FF;
+    color: #4a4446;
 }
 footer {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -44,6 +44,18 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 
 <style>
 .aligncenter {
